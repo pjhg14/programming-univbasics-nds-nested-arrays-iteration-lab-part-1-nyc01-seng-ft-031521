@@ -10,7 +10,9 @@ def find_even_values(src)
       if src[row][col].even?
         puts src[row][col]
       end
+      col += 1
     end
+    row += 1
   end
 
 end
